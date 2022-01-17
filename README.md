@@ -13,6 +13,7 @@ npm install
 npm start
 ```
 
+Go to [http://localhost:3000](http://localhost:3000) and click on "Choose File". Select the messenger.h263 raw file that was obtained from [MediaWiki](http://samples.mplayerhq.hu/V-codecs/h263/h263-raw/).
 
 # Supported Codecs:
 ```
