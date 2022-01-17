@@ -4,10 +4,17 @@
 
 Transcode RTP/RAW audio and video codecs in the browser, powered by [ffmpeg.wasm](https://github.com/ffmpegwasm/ffmpeg.wasm)
 
-### [Try it Now](https://lmangani.github.io/ffmpeg-wasm-voip/)
+# Test
+
+Clone the repo, then run:
+
+```
+npm install
+npm start
+```
 
 
-##### Supported Codecs:
+# Supported Codecs:
 ```
   D..... = Decoding supported
   .E.... = Encoding supported
