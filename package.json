@@ -1,0 +1,23 @@
+{
+  "name": "ffmpeg-wasm-voip",
+  "version": "1.0.0",
+  "description": "<img src=\"https://avatars2.githubusercontent.com/u/6690913?s=100&v=4\"><img src=\"https://i.imgur.com/bA4dqXw.jpg?2\"><br/>",
+  "main": "coi-serviceworker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmangani/ffmpeg-wasm-voip.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmangani/ffmpeg-wasm-voip/issues"
+  },
+  "homepage": "https://github.com/lmangani/ffmpeg-wasm-voip#readme",
+  "dependencies": {
+    "finalhandler": "^1.1.2",
+    "serve-static": "^1.14.2"
+  }
+}

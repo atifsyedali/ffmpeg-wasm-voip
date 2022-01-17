@@ -27,13 +27,13 @@ const transcode = async ({ target: { files }  }) => {
   ffmpeg.FS('writeFile', name, await fetchFile(files[0]));
   var codec = document.getElementById("codec") || 'g';
   codec.output = codec.value.startsWith('h') ? 'mp4':'mp3';
-  var output = "output."+codec.output;
+  var output = "output.mp4";
   //var cmd = ['-i', name, '-f', codec.value, '-ar', 8000, output]
   await ffmpeg.run('-err_detect', 'ignore_err', '-i', name, output);
   message.innerHTML = 'Complete transcoding';
   const data = ffmpeg.FS('readFile', output);
-  const audio = document.getElementById('output-audio');
-  audio.src = URL.createObjectURL(new Blob([data.buffer], { type: 'audio/mpeg' }));
+  const audio = document.getElementById('output-video');
+  audio.src = URL.createObjectURL(new Blob([data.buffer], { type: 'video/mpeg' }));
     
   } catch(e) {  message.innerHTML = e; }
 }
